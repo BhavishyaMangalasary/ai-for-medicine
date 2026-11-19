@@ -24,8 +24,11 @@
 - When your context is getting full, run handoff and write the handoff file before stopping.
 
 ## 5. Who owns what
+Solo project: one owner (Claude Code, main, working for the lead) owns every folder below. `data/` holds raw and processed NHANES files and is gitignored.
+
 | Area | Agent | Folders |
 |---|---|---|
-| Frontend / demo UI | Claude Code (main) | `web/` |
-| Backend and API | Claude Code (helper 1) | `api/` |
-| Data, seed, demo script | Claude Code (helper 2) | `fixtures/`, `scripts/` |
+| Pipeline: data load, cohort and label, features, models, evaluation | Claude Code (main) | `src/`, `tests/`, `scripts/` |
+| Demo app (Gradio, deployed as a Hugging Face Space) | Claude Code (main) | `app/` |
+| Frozen model, thresholds and result files | Claude Code (main) | `artifacts/` |
+| README, write-up, design notes, video script | Claude Code (main) | `docs/`, `README.md` |
