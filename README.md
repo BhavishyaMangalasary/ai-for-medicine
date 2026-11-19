@@ -35,7 +35,8 @@ Python 3.12.
 ```bash
 python3.12 -m venv .venv
 .venv/bin/pip install -r requirements.txt   # exact versions; requirements.lock has the full freeze
-scripts/run_all.sh                          # runs tests; pipeline stages are added as tickets land
+scripts/run_all.sh                          # tests, then downloads NHANES (~100 MB, first run only) and checks it;
+                                            # more pipeline stages are added as tickets land
 ```
 
 Seeds: one global `SEED` in `src/screener/__init__.py`; use `make_rng(stream)` for every random operation.

@@ -1,0 +1,90 @@
+{
+  "cycles": {
+    "2011-12": {
+      "role": "dev",
+      "rows_per_component": {
+        "DEMO": 9756,
+        "DIQ": 9364,
+        "GHB": 6549,
+        "BMX": 9338,
+        "BPQ": 6175,
+        "MCQ": 9364,
+        "RHQ": 3298,
+        "PAQ": 9107,
+        "SMQ": 6790
+      },
+      "merged_rows": 9756,
+      "rows_with_a1c": 6145,
+      "adults_20plus_with_a1c": 5020,
+      "strata_range": [
+        90,
+        103
+      ]
+    },
+    "2013-14": {
+      "role": "dev",
+      "rows_per_component": {
+        "DEMO": 10175,
+        "DIQ": 9770,
+        "GHB": 6979,
+        "BMX": 9813,
+        "BPQ": 6464,
+        "MCQ": 9770,
+        "RHQ": 3618,
+        "PAQ": 9484,
+        "SMQ": 7168
+      },
+      "merged_rows": 10175,
+      "rows_with_a1c": 6643,
+      "adults_20plus_with_a1c": 5392,
+      "strata_range": [
+        104,
+        118
+      ]
+    },
+    "2015-16": {
+      "role": "dev",
+      "rows_per_component": {
+        "DEMO": 9971,
+        "DIQ": 9575,
+        "GHB": 6744,
+        "BMX": 9544,
+        "BPQ": 6327,
+        "MCQ": 9575,
+        "RHQ": 3471,
+        "PAQ": 9255,
+        "SMQ": 7001
+      },
+      "merged_rows": 9971,
+      "rows_with_a1c": 6326,
+      "adults_20plus_with_a1c": 5201,
+      "strata_range": [
+        119,
+        133
+      ]
+    },
+    "2017-2020": {
+      "role": "test",
+      "rows_per_component": {
+        "DEMO": 15560,
+        "DIQ": 14986,
+        "GHB": 10409,
+        "BMX": 14300,
+        "BPQ": 10195,
+        "MCQ": 14986,
+        "RHQ": 5314,
+        "PAQ": 9693,
+        "SMQ": 11137
+      },
+      "merged_rows": 15560,
+      "rows_with_a1c": 9737,
+      "adults_20plus_with_a1c": 8081,
+      "strata_range": [
+        149,
+        172
+      ]
+    }
+  },
+  "stratum_id_collisions": [],
+  "missing_columns": {}
+}
